@@ -1,0 +1,120 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 4em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Style for the CrewmateCard container */
+.crewmate-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Style for the CrewmateCard */
+.crewmate-card {
+  flex: 0 1 calc(20% - 5px); /* To fit 4 cards in a row with a gap of 20px */
+  max-height: 400px;
+  background-color: #242424;
+  border: 1px solid #242424;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0px;
+  margin-bottom: 5px;
+  transition: transform 0.2s;
+}
+
+.crewmate-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Style for the crewmate image */
+.post-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Style for the crewmate name */
+.post-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+  text-decoration: none;
+  color: #FFF;
+}
+
+/* Style for the upvotes and creation date */
+.post-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #777;
+}
+
+.post-meta h3 {
+  font-size: 16px;
+  color: #777;
+}
+
+.nav-link{
+  color: #FFF;
+  text-decoration: underline;
+  padding: 10px;
+}
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Add this to your App.css */
+.loader {
+  border: 5px solid #7D7D7D; /* Light grey */
+  border-top: 5px solid #D22625; /* Blue */
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
