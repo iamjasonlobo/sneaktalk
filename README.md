@@ -1,5 +1,5 @@
 # *Sneaktalk*
-This web app: **forum-like site with a lot of freedom. Just make sure you hit all the feature requirements, like: Allowing users to create, read, update, and delete posts, Displaying previously created posts in a feed, Allowing for upvoting, searching, and sorting of posts, Allowing users to comment on posts**
+A Sneaker forum site allowing users to create, read, update, and delete posts, Displaying previously created posts in a feed, Allowing for upvoting, searching, and sorting of posts, Allowing users to comment on posts.
 
 ## Required Features
 The following functionality is implemented in the web app:
