@@ -1,16 +1,9 @@
-# Web Development Final Project - *Sneaktalk*
-
-Submitted by: **Jason Lobo**
-
+# *Sneaktalk*
 This web app: **forum-like site with a lot of freedom. Just make sure you hit all the feature requirements, like: Allowing users to create, read, update, and delete posts, Displaying previously created posts in a feed, Allowing for upvoting, searching, and sorting of posts, Allowing users to comment on posts**
 
-Time spent: **5** hours spent in total
-
 ## Required Features
-
-The following **required** functionality is completed:
-
-- [x] **A create form that allows the user to create posts**
+The following functionality is implemented in the web app:
+- [x] **Create form that allows the user to create posts**
 - [x] **Posts have a title and optionally additional textual content and/or an image added as an external image URL**
 - [x] **A home feed displaying previously created posts**
 - [x] **By default, the time created, title, and number of upvotes for each post is shown on the feed**
@@ -22,35 +15,10 @@ The following **required** functionality is completed:
 - [x] **Each post should have an upvote button on the post's page. Each click increases its upvotes count by one and users can upvote any number of times**
 - [x] **A previously created post can be edited or deleted from its post page**
 
-The following **optional** features are implemented:
-
-- [ ] Users can only edit and deleted posts or delete comments by entering the secret key, which is set by the user during post creation
-- [ ] Upon launching the web app, the user is assigned a random user ID. It will be associated with all posts and comments that they make and displayed on them.
-- [ ] Users can repost a previous post by referencing its post ID. On the post page of the new post, the referenced post is displayed and linked, creating a thread
-- [ ] Users can customize the interface of the web app
-- [ ] Users can share and view web videos
-- [ ] Users can set flags while creating a post. Then users can filter posts by flags on the home feed.
-- [ ] Users can upload images directly from their local machine as an image file
-- [ ] Display a loading animation whenever data is being fetched
-
-The following **additional** features are implemented:
-
-* [ ] List anything else that you added to improve the site's functionality!
-
 ## Video Walkthrough
+Here's a walkthrough of the web app:
 
-Here's a walkthrough of implemented user stories:
-
-<img src='https://i.imgur.com/OhozdxG.gif' title='Video Walkthrough' width='500px' alt='Video Walkthrough' />
-https://i.imgur.com/OhozdxG.gif
-
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-[ScreenToGif](https://www.screentogif.com/) for Windows
-
-## Notes
-
-Describe any challenges encountered while building the app.
+https://github.com/iamjasonlobo/sneaktalk/assets/105331420/20cde129-1b11-4f3c-810e-ba779e66dda5
 
 ## License
 
